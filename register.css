@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background: rgba(151, 137, 168, 0.616);
+    width: 100%;
+}
+a{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.container{
+    /* background-color: rgb(97, 109, 218); */
+    text-align: center;
+    width: 50%;
+    margin-left: 350px;
+    border: 1px dashed black;
+    border-radius: 10px;
+   
+}
+
+h1,p{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+}
+.regform{
+    width: 50%;   
+    margin: 50px 160px;   
+}
+
+.regform form{
+    display: grid;
+    /* text-align: center;   */
+}
+.regform input{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px;
+    background: rgba(151, 137, 168, 0.616);
+    padding: 10px 15px;
+    /* width: 310px; */
+    
+}
+
+.regform select{
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px;
+    background: rgba(151, 137, 168, 0.616);
+    padding: 10px 15px;
+    /* width: 310px; */
+}
+
+#checkbox{
+    margin-right: 300px; 
+    font-size: 100px;
+    padding: 50px;
+    
+}
+
+.regform p{
+    margin-top: 0px;
+    margin-left: 0px;
+    line-height: 0;
+    padding: 1px 0px;
+}
+
+.regform button{
+    background-color: green;
+    font-size: 30px;
+    border-radius: 13px;
+    border: 2px;
+    padding: 10px 15px;
+    width: 70%;
+   margin-left: 50px;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+
+.here{
+    display: flex;
+}
+.here h3{
+    font-size: 15px;
+    margin-left: 5px;
+}
+.here a{
+    font-size: 15px;
+}
+.here span{
+    color: green;
+}
+
+@media (max-width:768px){
+    body{
+        width: 768px;
+       
+       
+    }
+    .container{
+        margin-top: 50px;
+        width: 70%;
+        margin-left: 120px;
+ 
+
+    }
+    .regform{
+        width: 35%;   
+        margin: 50px 85px;   
+    }
+}
+
+
+@media (max-width:430px){
+    body{
+        width: 430px;  
+    }
+    .container{
+        margin:  30px 5px;
+        width: 80%;
+        margin-left: 45px;
+ 
+
+    }
+
+    .regform{
+        width: 25%;   
+        margin: 40px 15px;  
+        font-size: 10px; 
+    }
+    .regform input{
+        font-size: 18px;
+        margin-top: 10px;
+        /* padding: 10px 15px; */
+        
+        
+    }
+}

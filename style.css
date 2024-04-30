@@ -1,0 +1,444 @@
+*{
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: rgba(151, 137, 168, 0.616);
+    width: 100%
+}
+.header{
+   
+   top: 0;
+   left: 0;
+   padding: 2rem 9%;
+   background: rgba(151, 137, 168, 0.616);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: sticky;
+   z-index: 100;
+   
+}
+.header .sticky{
+    border-bottom: .1rem solid greenyellow;
+    
+}
+
+.logo{
+    font-size: 2.5rem;
+    color: red;
+    font-weight: 600;
+    cursor: default;
+}
+
+.navbar a{
+    font-size: 1.7rem;
+    color: black;
+    margin-left: 4rem;
+    transition: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover, 
+.navbar a.active{
+    color:  rgba(134, 7, 7, 0.616);
+}
+#menu-icon{
+   font-size: 2.0rem;
+   display: none;
+}
+
+ .body{
+    background:  rgba(242, 237, 248, 0.938);
+    width: 500px;
+    margin:50px 420px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;  
+ }
+ 
+
+  .body h1{
+    text-align: center;
+   
+    
+ }
+ .body form{
+    line-height: 32px;
+ }
+
+ .body p{
+    margin-left: 60px;
+    
+ }
+
+ .body input{
+    margin-left: 60px;
+    font-size: 30px;
+    border-color:   rgba(151, 137, 168, 0.616);
+    background: rgba(242, 237, 248, 0.938);;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+   }
+   ::placeholder{
+      font-size: 20px;
+      color: rgb(194, 194, 189);
+   }
+
+ .body select{
+    margin-left: 60px;
+    border-color: rgba(186, 141, 241, 0.938);
+    font-size: 15px;
+    width: 78%;
+    background: rgba(242, 237, 248, 0.938);
+    border-radius: 5px;
+
+ }
+
+ .body button{
+    margin-left: 60px;
+    width: 78%;
+    background-color: green;
+    margin-top: 10px; 
+    font-size: 20px;
+    padding: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    border: 1px solid green ;
+    color: ;
+ }
+ 
+.here h3{
+    margin-left: 60px; 
+ }
+ .body .rr{
+    margin-left: 320px;
+ }
+.here a{
+    margin-left: 65px;
+    color: black;
+
+ }
+ .here a span{
+   color: green;
+ }
+
+ .here{
+   display: flex;
+ }
+  
+
+
+ .footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 2rem 5%;
+   background: black;
+   color: white;
+  
+ }
+ .footer-text{
+    font-size: 25px; 
+    text-align: center; 
+    margin-left: 400px; 
+ }
+
+
+ 
+ @media (max-width:991px){
+    .header{
+      padding: 1rem 3%;
+      font-size: ;
+    }
+
+
+ }
+
+ @media (max-width:768px){
+   #menu-icon{
+      display: block;
+      
+   }
+   .navbar{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      padding: 0.5rem 1%;
+      background: blue;
+      border-top: 1rem solid rgba(0,0,0, .2);
+      box-shadow: 0 .5rem #000;
+      display: none;
+   }
+   .navbar .active{
+      display: block;
+
+   }
+   .navbar a{
+      display: block;
+      font-size: 10px;
+   }
+   .logo{
+      font-size:1.5rem;
+      margin-left: 10px;
+   }
+   .header{
+   
+    padding: 1rem 1%;
+    background: rgba(151, 137, 168, 0.616);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    height: 50px;
+    width: 768px;
+
+   }
+   .body{
+      
+      background:  rgba(242, 237, 248, 0.938);
+      width: 550px;
+      margin:30px 120px;
+      height: 480px;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 10px;  
+   }
+   .body form{
+      line-height: 35px;
+      /* font-size: 10px; */
+   }
+  
+   .body p{
+      margin-left: 80px;
+      font-size: 20px; 
+      font-family: monospace;
+      
+   }
+  
+   .body input{
+      margin-left: 80px;
+      font-size: 30px;
+      border-color:   rgba(151, 137, 168, 0.616);
+      background: rgba(242, 237, 248, 0.938);;
+      padding: 2px 5px;
+      border-radius: 5px;
+      
+     }
+     ::placeholder{
+        font-size: 25px;
+        padding-left: 5px;
+        color: rgb(194, 194, 189);
+     }
+  
+   .body select{
+      margin-left: 78px;
+      border-color: rgba(186, 141, 241, 0.938);
+      font-size:15px;
+      width: 70%;
+      background: rgba(242, 237, 248, 0.938);
+      border-radius: 5px;
+  
+   }
+  
+   .body button{
+      margin-left: 75px;
+      width: 70%;
+      background-color: green;
+      margin-top: 6px; 
+      font-size: 15px;
+      padding: 3px 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 2px;
+      border: 1px solid green ;
+      color: white;
+   }
+
+   .body .rr{
+      margin-left: 300px;
+      font-size: 20px;
+   }
+   
+  .here h3{
+      margin-left: 95px; 
+      font-size: 18px;
+     
+   }
+ 
+  .here a{
+      margin-left: 10px;
+      color: black;
+      font-size: 18px;
+  
+   }
+   .here a span{
+     color: green;
+   }
+  
+   .here{
+     display: flex;
+   }
+
+   .footer{
+      width: 768px;
+      
+     
+
+   }
+   .footer-text{
+      font-size: 25px; 
+      text-align: center; 
+      margin-left: 150px; 
+      margin-top: 10px;
+   }
+    
+
+
+ }
+ @media (max-width:430px){
+   #menu-icon{
+      display: block;
+      
+   }
+   .navbar{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      padding: 0.5rem 1%;
+      background: blue;
+      border-top: 1rem solid rgba(0,0,0, .2);
+      box-shadow: 0 .5rem #000;
+      display: none;
+   }
+   .navbar .active{
+      display: block;
+
+   }
+   .navbar a{
+      display: block;
+      font-size: 10px;
+   }
+   .logo{
+      font-size:1.5rem;
+      margin-left: 10px;
+   }
+   .header{
+   
+    padding: 1rem 1%;
+    background: rgba(151, 137, 168, 0.616);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    height: 50px;
+    width: 100%;
+
+   }
+   
+   }
+   .body{
+      
+      background:  rgba(242, 237, 248, 0.938);
+      width: 320px;
+      margin:30px 55px;
+      height: 380px;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 10px;  
+   }
+   .body form{
+      line-height: 25px;
+      /* font-size: 10px; */
+   }
+  
+   .body p{
+      margin-left: 35px;
+      font-size: 15px; 
+      font-family: monospace;
+      
+   }
+  
+   .body input{
+      margin-left: 35px;
+      font-size: 20px;
+      border-color:   rgba(151, 137, 168, 0.616);
+      background: rgba(242, 237, 248, 0.938);;
+      padding: 2px 5px;
+      border-radius: 5px;
+      
+     }
+     ::placeholder{
+        font-size: 15px;
+        padding-left: 5px;
+        color: rgb(194, 194, 189);
+     }
+  
+   .body select{
+      margin-left: 35px;
+      border-color: rgba(186, 141, 241, 0.938);
+      font-size:15px;
+      width: 80%;
+      background: rgba(242, 237, 248, 0.938);
+      border-radius: 5px;
+  
+   }
+  
+   .body button{
+      margin-left: 35px;
+      width: 80%;
+      background-color: green;
+      margin-top: 6px; 
+      font-size: 15px;
+      padding: 3px 0px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 2px;
+      border: 1px solid green ;
+      color: white;
+   }
+
+   .body .rr{
+      margin-left: 170px;
+      font-size: 15px;
+   }
+   
+  .here h3{
+      margin-left: 40px; 
+      font-size: 13px;
+     
+   }
+ 
+  .here a{
+      margin-left: 10px;
+      color: black;
+      font-size: 13px;
+  
+   }
+   .here a span{
+     color: green;
+   }
+  
+   .here{
+     display: flex;
+   }
+
+   .footer{
+      width: 100%;
+      
+     
+
+   }
+   .footer-text{
+      font-size: 18px; 
+      text-align: center; 
+      margin-left: 50px; 
+      margin-top: 10px;
+   }
+    
+
+
+ }
